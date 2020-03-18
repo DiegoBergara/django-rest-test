@@ -1,0 +1,13 @@
+{% extends 'users/base.html' %}
+
+{% block title %}User Detail{% endblock title %}
+
+{% block content %}
+
+<h1>{{ user.user_id }}</h1>
+
+<pre>
+  {{ user }}
+</pre>
+
+{% endblock content %}
